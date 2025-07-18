@@ -4,14 +4,12 @@
 
 Link at: [https://suryanshubanerjee.github.io/b2wptut1/](https://suryanshubanerjee.github.io/b2wptut1/)
 
-*(Yes, I know the URL looks like I mashed my keyboard. Don't judge.)*
-
 ## What's This?
 
-Just your average React app where I built some *totally groundbreaking* components:
-- A profile card (revolutionary, I know)
-- Buttons that count clicks (Nobel Prize incoming)
-- A grocery list that's color-coded (because why not?)
+Components given in Ma'am's example document:
+- A profile card 
+- Buttons that count clicks 
+- A grocery list that's color-coded 
 
 ## Getting Started
 
@@ -304,3 +302,7 @@ export default function ShowcaseApp() {
 ## Why Though?
 
 Look, we all start somewhere. 
+
+## This doesn't work on my PC
+
+I deployed the thing so it works. So skill issue. 
