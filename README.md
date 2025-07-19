@@ -13,16 +13,16 @@ Components given in example document:
 
 ## Getting Started
 
-### Option 1: The "I Actually Want to Learn" Path
+### Option 1: The Vite Path
 
 Fire up your VS Code terminal and follow along:
 
-1. **Create a new Vite + React app** (because create-react-app is so 2022)
+1. **Create a new Vite + React app** 
    ```bash
    npm create vite@latest myfirstapp -- --template react
    ```
    
-2. **Navigate to your shiny new project**
+2. **Select "React" and "Javascript" from the given menus and then navigate to your shiny new project**
    ```bash
    cd myfirstapp
    ```
@@ -43,14 +43,14 @@ Fire up your VS Code terminal and follow along:
 
 ### Option 2: The "I Just Want It Working" Path
 
-Too lazy for all that setup? I feel you. Just:
+Too lazy for all that Vite setup? Go with only React. Just:
 
 1. Scroll down and copy the entire `App.jsx` code below
 2. Paste it into your existing React project
 3. Delete whatever boring code was there before
 4. Profit 
 
-*Note: Yes, I committed the built files to GitHub instead of the source. I live dangerously.*
+*Note: I committed the built files to GitHub instead of the source. You won't find App.js in there.
 
 ## 📁 Project Structure
 
@@ -71,12 +71,10 @@ My Local Project (if you're following along)/
 └── index.html          # The HTML nobody looks at
 ```
 
-*Yes, I deployed the dist folder directly. No, I'm not sorry.*
-
 ## Features That Will Not Blow Your Mind
 
-- **Responsive Design**: Works on your PC! (Mobile users, you're on your own)
-- **Interactive Cards**: They move when you hover! (I spent way too long on this)
+- **Responsive Design**: Works on your PC (Mobile users, you're on your own)
+- **Interactive Cards**: They move when you hover (I spent way too long on this)
 - **State Management**: Each button remembers its count (until you refresh, then amnesia kicks in)
 - **Beautiful Gradients**: Because solid colors are boring
 - **Zero Dependencies**: Just React and my questionable CSS choices
@@ -85,11 +83,11 @@ My Local Project (if you're following along)/
 
 - The buttons don't sync their counts (it's a feature, not a bug)
 - Hedy Lamarr's photo loads from imgur (hopefully it stays there forever)
-- The grocery list is hardcoded (sorry, no adding your own veggies)
+- The grocery list is hardcoded (sorry, no adding your own)
 
 ## The Actual Code
 
-Since my GitHub repo only has the built files (because who needs source control for source code, am I right?), here's the entire `App.jsx` for your copy-pasting pleasure:
+Since my GitHub repo only has the built files, here's the entire `App.jsx` for your copy-pasting pleasure:
 
 ```jsx
 import { useState } from 'react';
