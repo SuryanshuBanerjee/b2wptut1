@@ -6,7 +6,7 @@ Link at: [https://suryanshubanerjee.github.io/b2wptut1/](https://suryanshubanerj
 
 ## What's This?
 
-Components given in Ma'am's example document:
+Components given in example document:
 - A profile card 
 - Buttons that count clicks 
 - A grocery list that's color-coded 
