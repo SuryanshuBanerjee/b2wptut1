@@ -1,4 +1,4 @@
-# First Lab Tut React 🎪
+# First Lab Tut React
 
 ## See it Live
 
